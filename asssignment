@@ -1,0 +1,13 @@
+echo "# hello.py" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sagivreich1/hello.py.git
+git push -u origin main
+
+def say_hello():
+    print("Hello, world!")
+
+say_hello()
+
